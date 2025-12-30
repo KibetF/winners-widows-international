@@ -23,7 +23,7 @@ interface ProgramCardProps {
   title: string;
   icon: string;
   description: string;
-  features: string[];
+  features: readonly string[];
   showLink?: boolean;
 }
 
