@@ -38,11 +38,18 @@ export const metadata: Metadata = {
     "healthcare",
   ],
   authors: [{ name: "Winners Widows & Widowers International" }],
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
   openGraph: {
     title: "Winners Widows & Widowers International",
     description:
       "Empowering Lives, Restoring Hope - Supporting 92+ widows and widowers across Kenya through sustainable empowerment programs since 2014.",
-    url: "https://winnerswidows.org",
+    url: "https://www.winnerswidows.org",
     siteName: "Winners Widows & Widowers International",
     locale: "en_US",
     type: "website",
@@ -57,6 +64,7 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  metadataBase: new URL("https://www.winnerswidows.org"),
 };
 
 export default function RootLayout({

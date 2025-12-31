@@ -68,7 +68,7 @@ export function Hero({
       {/* Content */}
       <div className={cn("container relative z-10", centered && "text-center")}>
         <div className={cn("max-w-3xl", centered && "mx-auto")}>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold mb-6 whitespace-nowrap drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-bold mb-6 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">
             {headline}
           </h1>
           {subheadline && (
