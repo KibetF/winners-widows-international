@@ -15,7 +15,7 @@ export default function HomePage() {
         subheadline="Supporting 92+ widows and widowers across Kenya through sustainable empowerment programs since 2014"
         primaryCta={{ label: "Support Our Mission", href: "/donate" }}
         secondaryCta={{ label: "See Our Impact", href: "/impact" }}
-        backgroundImage="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1920&q=80"
+        backgroundImage="/images/hero/IMG_5564.jpeg"
       />
 
       {/* Stats Banner */}
@@ -99,7 +99,7 @@ export default function HomePage() {
             <div className="relative">
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=800&q=80"
+                  src="/images/impact/IMG_5548.jpeg"
                   alt="Community members with livestock"
                   fill
                   className="object-cover"
@@ -107,7 +107,7 @@ export default function HomePage() {
               </div>
               <div className="absolute -bottom-6 -left-6 w-48 h-48 rounded-xl overflow-hidden shadow-lg hidden md:block">
                 <Image
-                  src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=400&q=80"
+                  src="/images/impact/IMG_5553.jpeg"
                   alt="Children at school"
                   fill
                   className="object-cover"
@@ -240,24 +240,21 @@ export default function HomePage() {
                 date: "December 25, 2024",
                 excerpt:
                   "This Christmas, we brought joy to all 92+ members across our three camps with food packages and celebration.",
-                image:
-                  "https://images.unsplash.com/photo-1513885535751-8b9238bd345a?w=600&q=80",
+                image: "/images/impact/IMG_5578.jpeg",
               },
               {
                 title: "Livestock Program Expansion",
                 date: "November 15, 2024",
                 excerpt:
                   "New Dorper sheep added to the Kasoiyo camp, expanding our sustainable income generation efforts.",
-                image:
-                  "https://images.unsplash.com/photo-1516467508483-a7212febe31a?w=600&q=80",
+                image: "/images/programs/photo-5845_singular_display_fullPicture.jpeg",
               },
               {
                 title: "Education Support: Back to School",
                 date: "September 1, 2024",
                 excerpt:
                   "Celebrating the start of a new school year with our education support program reaching more children.",
-                image:
-                  "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&q=80",
+                image: "/images/impact/IMG_5550.jpeg",
               },
             ].map((news, index) => (
               <Card key={index} hover className="overflow-hidden">

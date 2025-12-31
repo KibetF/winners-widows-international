@@ -30,10 +30,10 @@ What started as a small group meeting under a tree has grown into a thriving com
       role: "Kasoiyo Camp Member since 2016",
     },
     images: [
-      "https://images.unsplash.com/photo-1516467508483-a7212febe31a?w=600&q=80",
-      "https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=600&q=80",
-      "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=600&q=80",
-      "https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=600&q=80",
+      "/images/camps/kasoiyo/IMG_5459.jpeg",
+      "/images/camps/kasoiyo/IMG_5463.jpeg",
+      "/images/camps/kasoiyo/IMG_5469.jpeg",
+      "/images/camps/kasoiyo/IMG_5490.jpeg",
     ],
   },
   {
@@ -54,10 +54,10 @@ Talai has become a model for how our programs can transform entire communities. 
       role: "Talai Camp Member since 2018",
     },
     images: [
-      "https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=600&q=80",
-      "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600&q=80",
-      "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&q=80",
-      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&q=80",
+      "/images/camps/talai/IMG_5543.jpeg",
+      "/images/camps/talai/IMG_5545.jpeg",
+      "/images/camps/talai/IMG_5550.jpeg",
+      "/images/camps/talai/IMG_5563.jpeg",
     ],
   },
   {
@@ -78,10 +78,10 @@ The members of Cheburur have started a community garden that provides fresh vege
       role: "Cheburur Camp Member since 2020",
     },
     images: [
-      "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=600&q=80",
-      "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=600&q=80",
-      "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=600&q=80",
-      "https://images.unsplash.com/photo-1513885535751-8b9238bd345a?w=600&q=80",
+      "/images/camps/cheburur/IMG_5891.jpeg",
+      "/images/camps/cheburur/IMG_5892.jpeg",
+      "/images/camps/cheburur/IMG_5899.jpeg",
+      "/images/camps/cheburur/IMG_5900.jpeg",
     ],
   },
 ];
@@ -95,7 +95,7 @@ export default function ImpactPage() {
       <Hero
         headline="Real Impact, Real Lives"
         subheadline="Meet the communities we serve across Kenya"
-        backgroundImage="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=1920&q=80"
+        backgroundImage="/images/hero/IMG_5522.jpeg"
         size="md"
       />
 

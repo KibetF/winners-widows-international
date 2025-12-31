@@ -66,29 +66,29 @@ export const BOARD_MEMBERS = [
     id: "mary-kipchilis",
     name: "Mary Kipchilis",
     role: "Founder & President",
-    bio: "Founder of Winners Widows & Widowers International, Mary has dedicated her life to empowering widows and widowers in rural Kenya since 2014.", // PLACEHOLDER - expand
-    image: "/images/team/placeholder.jpg",
+    bio: "A committed servant of God, Mary founded Winners Widows & Widowers International in 2014 with a heart for the vulnerable. She leads the organization's vision and strategy, ensuring that every widow and widower receives the support they need to rebuild their lives with dignity and hope.",
+    image: "/images/team/mary-kipchilis.jpeg",
   },
   {
     id: "pastor-luka-kipchilis",
     name: "Pastor Luka Kipchilis",
-    role: "Board Member",
-    bio: "A dedicated pastor and community leader supporting the organization's mission.", // PLACEHOLDER - expand
-    image: "/images/team/placeholder.jpg",
+    role: "Managing Director & Board Member",
+    bio: "An ordained pastor at Upendo Baptist Church in Garland, Texas, Pastor Luka provides spiritual guidance and pastoral care to the widows and widowers we serve. As Managing Director, he oversees the organization's day-to-day operations and ensures our programs align with our faith-based mission.",
+    image: "/images/team/pastor-luka-kipchilis.jpeg",
   },
   {
     id: "hillary-kosgei",
     name: "Hillary Kosgei",
-    role: "Board Member",
-    bio: "Committed to advancing sustainable development initiatives in Kenya.", // PLACEHOLDER - expand
-    image: "/images/team/placeholder.jpg",
+    role: "Operations Manager & Board Member",
+    bio: "Hillary oversees all donation allocations and program implementation on the ground in Kenya. He ensures that every contribution reaches the right members and manages relationships with community leaders. All camp coordinators report directly to him, making him the vital link between donors and beneficiaries.",
+    image: "/images/team/hillary-kosgei.jpeg",
   },
   {
     id: "fred-kibet",
     name: "Fred Kibet",
-    role: "Board Member",
-    bio: "Bringing expertise in technology and operations to support the organization's growth.", // PLACEHOLDER - expand
-    image: "/images/team/placeholder.jpg",
+    role: "Technology Director & Board Member",
+    bio: "Fred leads all technology initiatives for the organization, building and maintaining the digital infrastructure that powers our operations. From donor management systems to communication platforms, he ensures that technology serves our mission of transparency and efficiency.",
+    image: "/images/team/fred-kibet.jpg",
   },
 ] as const;
 

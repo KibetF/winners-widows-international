@@ -6,3 +6,4 @@ export * from "./select";
 export * from "./badge";
 export * from "./table";
 export * from "./dialog";
+export * from "./label";

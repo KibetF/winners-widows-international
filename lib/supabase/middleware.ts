@@ -37,23 +37,23 @@ export async function updateSession(request: NextRequest) {
     data: { user },
   } = await supabase.auth.getUser();
 
+  // Handle admin login page
+  if (request.nextUrl.pathname === "/admin-login") {
+    // If already logged in, redirect to admin dashboard
+    if (user) {
+      const url = request.nextUrl.clone();
+      url.pathname = "/admin";
+      return NextResponse.redirect(url);
+    }
+    return supabaseResponse;
+  }
+
   // Protect admin routes
   if (request.nextUrl.pathname.startsWith("/admin")) {
-    // Allow access to login page
-    if (request.nextUrl.pathname === "/admin/login") {
-      // If already logged in, redirect to admin dashboard
-      if (user) {
-        const url = request.nextUrl.clone();
-        url.pathname = "/admin";
-        return NextResponse.redirect(url);
-      }
-      return supabaseResponse;
-    }
-
     // Redirect to login if not authenticated
     if (!user) {
       const url = request.nextUrl.clone();
-      url.pathname = "/admin/login";
+      url.pathname = "/admin-login";
       return NextResponse.redirect(url);
     }
   }

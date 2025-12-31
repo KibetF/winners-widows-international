@@ -21,7 +21,7 @@ export default function TeamPage() {
       <Hero
         headline="Our Team"
         subheadline="Dedicated leaders serving with compassion and purpose"
-        backgroundImage="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1920&q=80"
+        backgroundImage="/images/team/IMG_5506.jpeg"
         size="md"
       />
 
@@ -33,7 +33,7 @@ export default function TeamPage() {
               name={founder.name}
               role={founder.role}
               bio={founder.bio}
-              image="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80"
+              image={founder.image}
               featured
             />
 
@@ -67,27 +67,14 @@ export default function TeamPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            {/* Re-include founder in the grid */}
-            <TeamCard
-              name={founder.name}
-              role={founder.role}
-              bio={founder.bio}
-              image="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80"
-            />
-            {boardMembers.map((member, index) => (
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+            {BOARD_MEMBERS.map((member) => (
               <TeamCard
                 key={member.id}
                 name={member.name}
                 role={member.role}
                 bio={member.bio}
-                image={`https://images.unsplash.com/photo-${
-                  [
-                    "1507003211169-0a1dd7228f2d",
-                    "1472099645785-5658abf4ff4e",
-                    "1519345182560-3f2917c472ef",
-                  ][index]
-                }?w=600&q=80`}
+                image={member.image}
               />
             ))}
           </div>

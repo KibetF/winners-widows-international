@@ -34,7 +34,7 @@ export default function DonatePage() {
       <Hero
         headline="Give Hope Today"
         subheadline="100% of your donation goes directly to empowering widows and widowers in Kenya"
-        backgroundImage="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=1920&q=80"
+        backgroundImage="/images/impact/IMG_5573.jpeg"
         size="sm"
       />
 

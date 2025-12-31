@@ -18,7 +18,7 @@ export default function ContactPage() {
       <Hero
         headline="Get in Touch"
         subheadline="We'd love to hear from you"
-        backgroundImage="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1920&q=80"
+        backgroundImage="/images/general/IMG_5489.jpeg"
         size="sm"
       />
 

@@ -29,7 +29,7 @@ export default function TransparencyPage() {
       <Hero
         headline="Your Trust, Our Commitment"
         subheadline="Complete transparency in how your donations create impact"
-        backgroundImage="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1920&q=80"
+        backgroundImage="/images/general/IMG_5469.jpeg"
         size="sm"
       />
 

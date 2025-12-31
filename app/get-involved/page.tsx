@@ -29,7 +29,7 @@ export default function GetInvolvedPage() {
       <Hero
         headline="Join Our Mission"
         subheadline="Every act of kindness creates ripples of hope"
-        backgroundImage="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=1920&q=80"
+        backgroundImage="/images/general/IMG_5563.jpeg"
         size="md"
       />
 
@@ -230,18 +230,18 @@ export default function GetInvolvedPage() {
             ].map((tier) => (
               <Card
                 key={tier.amount}
-                className={`text-center ${
-                  tier.featured ? "border-2 border-primary-900 relative" : ""
+                className={`text-center overflow-visible ${
+                  tier.featured ? "border-2 border-primary-900 relative mt-4" : ""
                 }`}
               >
                 {tier.featured && (
-                  <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-                    <span className="bg-primary-900 text-white text-xs font-medium px-4 py-1 rounded-full">
+                  <div className="absolute -top-3 left-1/2 -translate-x-1/2 z-10">
+                    <span className="bg-primary-900 text-white text-xs font-medium px-4 py-1.5 rounded-full whitespace-nowrap">
                       Most Popular
                     </span>
                   </div>
                 )}
-                <CardContent className="p-8">
+                <CardContent className="p-8 h-full flex flex-col">
                   <div className="w-14 h-14 rounded-full bg-secondary-100 flex items-center justify-center mx-auto mb-4">
                     <tier.icon className="w-7 h-7 text-secondary-600" />
                   </div>
@@ -252,8 +252,8 @@ export default function GetInvolvedPage() {
                   <h3 className="font-heading font-semibold text-xl text-neutral-900 mb-3">
                     {tier.title}
                   </h3>
-                  <p className="text-neutral-600 text-sm mb-6">{tier.impact}</p>
-                  <Link href="/donate">
+                  <p className="text-neutral-600 text-sm mb-6 flex-grow">{tier.impact}</p>
+                  <Link href="/donate" className="mt-auto">
                     <Button
                       variant={tier.featured ? "primary" : "outline"}
                       size="md"
@@ -318,7 +318,7 @@ export default function GetInvolvedPage() {
             <div className="relative">
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80"
+                  src="/images/impact/IMG_5548.jpeg"
                   alt="Corporate team meeting"
                   fill
                   className="object-cover"
@@ -336,7 +336,7 @@ export default function GetInvolvedPage() {
             <div className="relative order-2 lg:order-1">
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80"
+                  src="/images/about/5f1c9355-df94-4828-9fb4-a84054d70012.jpg"
                   alt="Community visit in Kenya"
                   fill
                   className="object-cover"

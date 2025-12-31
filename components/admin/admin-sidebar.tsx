@@ -9,6 +9,7 @@ import {
   Wallet,
   Users,
   FileText,
+  Receipt,
   Settings,
   LogOut,
   Menu,
@@ -23,6 +24,7 @@ const navItems = [
   { href: "/admin/donations", label: "Donations", icon: Heart },
   { href: "/admin/allocations", label: "Allocations", icon: Wallet },
   { href: "/admin/members", label: "Members", icon: Users },
+  { href: "/admin/receipts", label: "Receipts", icon: Receipt },
   { href: "/admin/reports", label: "Reports", icon: FileText },
 ];
 
@@ -34,7 +36,7 @@ export function AdminSidebar() {
   const handleLogout = async () => {
     const supabase = createClient();
     await supabase.auth.signOut();
-    router.push("/admin/login");
+    router.push("/admin-login");
     router.refresh();
   };
 

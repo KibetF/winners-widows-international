@@ -22,7 +22,7 @@ const programDetails = [
     fullDescription: `Our flagship program provides dairy cows and Dorper sheep to community members. Unlike traditional charity models, our livestock program creates ongoing income through a unique shared proceeds model.
 
 Members receive livestock as a community resource, learning valuable animal husbandry skills while generating sustainable income. Milk and sale proceeds are shared equally among all members, ensuring everyone benefits. As animals reproduce, the community's assets grow over time.`,
-    image: "https://images.unsplash.com/photo-1516467508483-a7212febe31a?w=1200&q=80",
+    image: "/images/programs/photo-5845_singular_display_fullPicture.jpeg",
     stats: [
       { label: "Dairy Cows", value: "12+" },
       { label: "Dorper Sheep", value: "30+" },
@@ -34,7 +34,7 @@ Members receive livestock as a community resource, learning valuable animal husb
     fullDescription: `Education breaks the cycle of poverty. We support children of widows and widowers through comprehensive educational assistance, ensuring they have every opportunity to succeed.
 
 Our education program covers school fees, uniforms, and supplies. We also provide scholarship opportunities for higher education and adult literacy programs to empower parents alongside their children.`,
-    image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1613490900233-141c5560d75d?w=800&q=80",
     stats: [
       { label: "Students Supported", value: "50+" },
       { label: "Schools Partnered", value: "8" },
@@ -46,7 +46,7 @@ Our education program covers school fees, uniforms, and supplies. We also provid
     fullDescription: `Health is wealth. Our healthcare support ensures that members and their families have access to medical care when they need it most.
 
 We assist with medical bills, coordinate health education and awareness programs, partner with local healthcare providers for discounted services, and maintain an emergency medical fund for urgent situations.`,
-    image: "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
     stats: [
       { label: "Medical Bills Paid", value: "100+" },
       { label: "Health Camps", value: "6" },
@@ -58,7 +58,7 @@ We assist with medical bills, coordinate health education and awareness programs
     fullDescription: `We teach skills that last a lifetime. Our income and skills training program equips members with the knowledge and abilities they need to generate sustainable income.
 
 From vocational training to small business development, financial literacy education to agricultural best practices, we provide comprehensive training that transforms livelihoods.`,
-    image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1560493676-04071c5f467b?w=800&q=80",
     stats: [
       { label: "Members Trained", value: "75+" },
       { label: "Business Started", value: "20+" },
@@ -70,7 +70,7 @@ From vocational training to small business development, financial literacy educa
     fullDescription: `We're there when it matters most. Our seasonal and emergency support program provides crucial assistance during holidays and unexpected crises.
 
 Every Christmas, all members receive food packages to celebrate with their families. Throughout the year, we respond to emergencies with quick assistance, organize community celebration events, and provide bereavement support for those who have lost loved ones.`,
-    image: "https://images.unsplash.com/photo-1513885535751-8b9238bd345a?w=1200&q=80",
+    image: "/images/programs/emergency-support.jpg",
     stats: [
       { label: "Christmas Packages", value: "92+" },
       { label: "Emergencies Assisted", value: "40+" },
@@ -86,7 +86,7 @@ export default function ProgramsPage() {
       <Hero
         headline="Programs That Empower"
         subheadline="Sustainable solutions that transform lives and build lasting prosperity"
-        backgroundImage="https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=1920&q=80"
+        backgroundImage="/images/programs/IMG_5459.jpeg"
         size="md"
       />
 

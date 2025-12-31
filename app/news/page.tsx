@@ -29,7 +29,7 @@ The distribution events in Kasoiyo, Talai, and Cheburur were marked by singing, 
 
 Our founder Mary Kipchilis personally attended the Kasoiyo distribution, sharing words of encouragement and hope for the new year ahead.`,
     image:
-      "https://images.unsplash.com/photo-1513885535751-8b9238bd345a?w=1200&q=80",
+      "/images/impact/IMG_5578.jpeg",
     date: "December 25, 2024",
     category: "Events",
     readTime: "3 min read",
@@ -49,7 +49,7 @@ The sheep will be managed collectively, with proceeds shared equally among all 2
 
 This expansion was made possible through generous donations from supporters in both the US and Kenya.`,
     image:
-      "https://images.unsplash.com/photo-1516467508483-a7212febe31a?w=1200&q=80",
+      "/images/programs/photo-5845_singular_display_fullPicture.jpeg",
     date: "November 15, 2024",
     category: "Programs",
     readTime: "4 min read",
@@ -69,7 +69,7 @@ The education program has been a cornerstone of our empowerment approach since t
 
 Parents participated in a workshop on supporting their children's education at home, emphasizing the partnership between home and school.`,
     image:
-      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=1200&q=80",
+      "/images/impact/IMG_5550.jpeg",
     date: "September 1, 2024",
     category: "Programs",
     readTime: "3 min read",
@@ -89,7 +89,7 @@ Each participant received a sewing kit to continue practicing their skills, and 
 
 This program was designed based on feedback from members themselves, who identified tailoring as a high-demand skill in their communities.`,
     image:
-      "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1200&q=80",
+      "/images/impact/IMG_5553.jpeg",
     date: "August 10, 2024",
     category: "Programs",
     readTime: "4 min read",
@@ -109,7 +109,7 @@ Several members were referred for follow-up care, with medical bills covered by 
 
 The success of this initiative has led to plans for quarterly health outreach events in 2025.`,
     image:
-      "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=1200&q=80",
+      "/images/programs/699e9ca9-244e-433b-a671-647731808083.jpg",
     date: "July 20, 2024",
     category: "Healthcare",
     readTime: "3 min read",
@@ -126,7 +126,7 @@ export default function NewsPage() {
       <Hero
         headline="Latest News"
         subheadline="Stories of hope and impact from our communities"
-        backgroundImage="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1920&q=80"
+        backgroundImage="/images/impact/IMG_5549.jpeg"
         size="sm"
       />
 

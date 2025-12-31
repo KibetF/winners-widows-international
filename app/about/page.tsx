@@ -18,7 +18,7 @@ export default function AboutPage() {
       <Hero
         headline="Our Story"
         subheadline="A journey of faith, compassion, and community transformation"
-        backgroundImage="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=1920&q=80"
+        backgroundImage="/images/about/IMG_2116.jpeg"
         size="md"
       />
 
@@ -55,12 +55,13 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="relative">
-              <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
+              <div className="relative aspect-[3/4] md:aspect-[4/5] lg:aspect-square rounded-2xl overflow-hidden shadow-xl min-h-[400px] lg:min-h-[500px]">
                 <Image
-                  src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=800&q=80"
+                  src="/images/about/IMG_2189.jpeg"
                   alt="Community gathering in Kenya"
                   fill
-                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover object-top"
                 />
               </div>
               <div className="absolute -bottom-4 -right-4 bg-primary-900 text-white p-4 rounded-xl shadow-lg">

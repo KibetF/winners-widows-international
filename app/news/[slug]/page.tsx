@@ -28,7 +28,7 @@ The Christmas program has been a tradition since our founding, ensuring that no 
 
 As we look forward to 2025, we are grateful for the community of supporters who make moments like these possible. Your donations don't just provide food—they provide hope, dignity, and belonging.`,
     image:
-      "https://images.unsplash.com/photo-1513885535751-8b9238bd345a?w=1200&q=80",
+      "/images/impact/IMG_5578.jpeg",
     date: "December 25, 2024",
     category: "Events",
     readTime: "3 min read",
@@ -55,7 +55,7 @@ Each sheep represents not just an asset but an opportunity—for income, for ski
 
 We are grateful to all donors who made this expansion possible and look forward to sharing more success stories as this program develops.`,
     image:
-      "https://images.unsplash.com/photo-1516467508483-a7212febe31a?w=1200&q=80",
+      "/images/programs/photo-5845_singular_display_fullPicture.jpeg",
     date: "November 15, 2024",
     category: "Programs",
     readTime: "4 min read",
@@ -84,7 +84,7 @@ This year's back-to-school program included:
 
 We are committed to ensuring that every child in our community has access to quality education. Your donations make this possible.`,
     image:
-      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=1200&q=80",
+      "/images/impact/IMG_5550.jpeg",
     date: "September 1, 2024",
     category: "Programs",
     readTime: "3 min read",
@@ -111,7 +111,7 @@ Beyond technical skills, the workshop fostered a sense of community and mutual s
 
 This is the power of sustainable empowerment—giving people the skills and tools they need to generate their own income and support their families.`,
     image:
-      "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1200&q=80",
+      "/images/impact/IMG_5553.jpeg",
     date: "August 10, 2024",
     category: "Programs",
     readTime: "4 min read",
@@ -139,7 +139,7 @@ Health statistics from the outreach revealed important insights:
 
 We are grateful to the healthcare volunteers who donated their time and expertise to make this outreach possible. Together, we are ensuring that our members have access to the healthcare they deserve.`,
     image:
-      "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=1200&q=80",
+      "/images/programs/699e9ca9-244e-433b-a671-647731808083.jpg",
     date: "July 20, 2024",
     category: "Healthcare",
     readTime: "3 min read",

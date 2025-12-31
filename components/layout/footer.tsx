@@ -169,7 +169,14 @@ export function Footer() {
         <div className="container py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-neutral-500">
             <p>
-              &copy; {currentYear} {ORGANIZATION.name}. All rights reserved.
+              &copy;{" "}
+              <Link
+                href="/admin-login"
+                className="hover:text-neutral-400 transition-colors"
+              >
+                {currentYear}
+              </Link>{" "}
+              {ORGANIZATION.name}. All rights reserved.
             </p>
             <div className="flex items-center gap-4">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-yellow-900/30 text-yellow-500 text-xs font-medium">

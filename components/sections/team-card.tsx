@@ -15,12 +15,12 @@ export function TeamCard({ name, role, bio, image, featured = false }: TeamCardP
     return (
       <Card className="overflow-hidden">
         <div className="grid md:grid-cols-2 gap-0">
-          <div className="relative aspect-square md:aspect-auto">
+          <div className="relative aspect-[3/4] md:aspect-auto md:min-h-[400px]">
             <Image
               src={image}
               alt={name}
               fill
-              className="object-cover"
+              className="object-cover object-top"
             />
           </div>
           <CardContent className="p-8 flex flex-col justify-center">
@@ -39,12 +39,12 @@ export function TeamCard({ name, role, bio, image, featured = false }: TeamCardP
 
   return (
     <Card hover className="overflow-hidden">
-      <div className="relative aspect-square">
+      <div className="relative aspect-[3/4]">
         <Image
           src={image}
           alt={name}
           fill
-          className="object-cover"
+          className="object-cover object-top"
         />
       </div>
       <CardContent className="p-6">
@@ -52,7 +52,7 @@ export function TeamCard({ name, role, bio, image, featured = false }: TeamCardP
           {name}
         </h3>
         <p className="text-sm text-primary-900 font-medium mb-3">{role}</p>
-        <p className="text-sm text-neutral-600 line-clamp-3">{bio}</p>
+        <p className="text-sm text-neutral-600">{bio}</p>
       </CardContent>
     </Card>
   );

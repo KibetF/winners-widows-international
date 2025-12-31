@@ -13,7 +13,7 @@ export default async function AdminLayout({
 
   // The middleware handles redirects, but this is a safety check
   if (!user) {
-    redirect("/admin/login");
+    redirect("/admin-login");
   }
 
   return (
