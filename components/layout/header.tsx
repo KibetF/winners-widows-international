@@ -35,14 +35,14 @@ export function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 flex-shrink-0">
-            <div className="w-10 h-10 rounded-full bg-primary-900 flex items-center justify-center">
-              <Heart className="w-5 h-5 text-secondary-400 fill-secondary-400" />
+            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-primary-900 flex items-center justify-center flex-shrink-0">
+              <Heart className="w-4 h-4 sm:w-5 sm:h-5 text-secondary-400 fill-secondary-400" />
             </div>
-            <div className="hidden sm:block">
-              <span className="font-heading font-bold text-primary-900 text-lg leading-tight block">
+            <div>
+              <span className="font-heading font-bold text-primary-900 text-sm sm:text-lg leading-tight block">
                 Winners Widows
               </span>
-              <span className="text-xs text-neutral-500 leading-tight block -mt-0.5">
+              <span className="text-[10px] sm:text-xs text-neutral-500 leading-tight block -mt-0.5">
                 & Widowers International
               </span>
             </div>

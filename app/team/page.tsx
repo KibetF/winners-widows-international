@@ -21,7 +21,7 @@ export default function TeamPage() {
       <Hero
         headline="Our Team"
         subheadline="Dedicated leaders serving with compassion and purpose"
-        backgroundImage="/images/team/IMG_5506.jpeg"
+        backgroundImage="/images/team/Our Team Hero.jpeg"
         size="md"
       />
 
